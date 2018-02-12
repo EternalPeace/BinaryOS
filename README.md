@@ -14,7 +14,7 @@ protectmode
     nasm r2p2r.asm -o r2p2r.bin
    
 	floppy.img is copy from empty.img, and has a filesystem: 
-    mkfs.vfat floppy.img
+    mkfs.msdos floppy.img
     mount -o loop floppy.img /mnt
         copy some file to floppy.img
     cp <filename> /mnt
