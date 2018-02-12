@@ -20,6 +20,8 @@ protectmode
     cp <filename> /mnt
 	insert the floppy.img to VM's driver A
         execute the filename
+    a:\r2p2r.com
+
     
 
 
