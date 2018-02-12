@@ -18,5 +18,8 @@ protectmode
     mount -o loop floppy.img /mnt
         copy some file to floppy.img
     cp <filename> /mnt
+	insert the floppy.img to VM's driver A
+        execute the filename
+    
 
 
