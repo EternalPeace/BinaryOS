@@ -1,6 +1,5 @@
 ; ==========================================
-; pmtest1.asm
-; 编译方法：nasm pmtest1.asm -o pmtest1.bin
+; 编译方法：nasm protect2MBR.asm -o protect2MBR.bin
 ; ==========================================
 
 %include	"pm.inc"	; 常量, 宏, 以及一些说明
