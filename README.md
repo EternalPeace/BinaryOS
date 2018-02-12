@@ -9,4 +9,8 @@ protectmode
     nasm  protect2MBR.asm -o protect2MBR.bin 
     dd if=protect2MBR.bin of=protect.img bs=512 count=1 conv=notrunc
     qemu-system-x86 protect.img or bochs
+    	r2p2r.asm ：the file from real mode switch to protect mode and switch to real mode.
+    	how to build:
+    nasm r2p2r.asm -o r2p2r.bin
+
 
