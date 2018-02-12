@@ -8,5 +8,5 @@ protectmode
     cd protect
     nasm  protect2MBR.asm -o protect2MBR.bin 
     dd if=protect2MBR.bin of=protect.img bs=512 count=1 conv=notrunc
-    qemu-system-x86 protect.img
+    qemu-system-x86 protect.img or bochs
 
