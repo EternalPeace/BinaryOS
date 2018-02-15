@@ -22,4 +22,7 @@ protectmode
         execute the filename
     
 
+	r32g2r.asm:from ring3 to callgate to realmode
+	callgates.asm :use callgates
+
 
