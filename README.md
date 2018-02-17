@@ -26,5 +26,7 @@ protectmode
 
 	r32g2r.asm:from ring3 to callgate to realmode
 	callgates.asm :use callgates
+	usepage.asm: page use and page switch
+
 
 
