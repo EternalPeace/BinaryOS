@@ -29,5 +29,16 @@ protectmode
 	usepage.asm: page use and page switch
 	idttest.asm: interrupt and idt test
 
+boot
+    cd boot
+	boot's files can realize boot and load the loader.bin file,and execute the loader file
+    boot.asm
+	nasm boot.asm -o boot.bin
+	dd if=boot.bin of=floppy.img count=1 conv=notrunc
+    loader.asm
+	nasm loader.asm -o loader.bin
+	mount floppy.img and copy loader.bin to the mount file.
+
+
 
 
