@@ -1,4 +1,4 @@
-org  0100h
+org  07c00h
 
 BaseOfStack		equ	0100h
 
