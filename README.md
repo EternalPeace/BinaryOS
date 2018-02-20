@@ -39,6 +39,13 @@ boot
 	nasm loader.asm -o loader.bin
 	mount floppy.img and copy loader.bin to the mount file.
 
+assemble
+    hello.asm
+	test the linux assemble
 
+loader
+    loader.asm
+    kernel.asm
+	
 
 
