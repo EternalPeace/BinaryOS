@@ -46,6 +46,9 @@ assemble
 loader
     loader.asm
     kernel.asm
+	nasm -f elf kernel.asm -o kernel.o
+	ld -m elf_i386 -s kernel.o -o kernel.bin
+	dd if=kernel.bin of=floppy.img bs=512 count=1 conv=notrunc
 	
 
 
