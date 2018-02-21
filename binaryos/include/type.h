@@ -1,13 +1,10 @@
 
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
                             type.h
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-                                                    Forrest Yu, 2005
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 
-#ifndef	_ORANGES_TYPE_H_
-#define	_ORANGES_TYPE_H_
-
+#ifndef	_BINARYOS_TYPE_H_
+#define	_BINARYOS_TYPE_H_
 
 typedef	unsigned int		u32;
 typedef	unsigned short		u16;

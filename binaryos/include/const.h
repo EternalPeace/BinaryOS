@@ -1,12 +1,10 @@
 
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
                             const.h
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-                                                    Forrest Yu, 2005
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 
-#ifndef	_ORANGES_CONST_H_
-#define	_ORANGES_CONST_H_
+#ifndef	_BINARYOS_CONST_H_
+#define	_BINARYOS_CONST_H_
 
 
 /* EXTERN is defined as extern except in global.c */
@@ -32,4 +30,4 @@
 #define INT_S_CTLMASK 0xA1 /* setting bits in this port disables ints <Slave>  */
 
 
-#endif /* _ORANGES_CONST_H_ */
+#endif /* _BINARYOS_CONST_H_ */
