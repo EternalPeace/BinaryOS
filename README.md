@@ -62,7 +62,7 @@ binaryos:from realmode to protect
 │   ├── i8259.c :初始化8259中断控制器,和中断函数
 │   ├── kernel.asm :重新设置GDT,设置中断宏,中断和异常
 │   ├── protect.c :初始化中断门，声明中断处理函数，(常见中断和8259中断)
-│   ├── start.c :在保护模式下，重新设置GDT,IDT到内核中
+│   ├── start.c :在保护模式下，重新设置GDT,IDT到内核中,初始化中断
 ├── lib
 │   ├── kliba.asm :显示函数
 │   ├── klib.c :整形转换为字符串
